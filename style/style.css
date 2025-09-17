@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#font {
+    font-family: "Work Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    height: 919px;
+    background-image: linear-gradient(0deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1), rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 1023px;
+    height: 330px;
+}
+
+#hero-content-p_1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+#hero-content-h_1 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#hero-content-p_2 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+#hero-content-button {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button {
+    background: rgba(82, 195, 3, 1);
+    border-radius: 8px;
+    border: none;
+    padding: 21px 32px 21px 32px;
+}
+
+#card-box {
+    width: 1920px;
+    height: 1222px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-box-container1 {
+    width: 1320px;
+    height: 742px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-box-div_1 {
+    width: 691px;
+    height: 172px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+#card-p {
+    color: rgba(16, 16, 16, 1);
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+#card-h {
+    color: rgba(16, 16, 16, 1);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#card-box-container2 {
+    display: flex;
+    width: 1320px;
+    height: 522px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-btn {
+    width: 187px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card-h2 {
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.card-para {
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+#about-container {
+    width: 1920px;
+    height: 671px;
+    border: 2px solid red;
+    display: flex;
+}
+
+#about-div {
+    width: 960px;
+    height: 671px;
+    border: 5px dashed red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-h2 {
+    color: rgba(16, 16, 16, 1);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#about-p {
+    color: rgba(16, 16, 16, 1);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 48px;
+    opacity: 0.6;
+}
+
+#about-h3 {
+    color: rgba(16, 16, 16, 1);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
